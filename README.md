@@ -2,6 +2,10 @@
 
 Welcome to the C++ object oriented programming notes! This collection features a comprehensive set of c++ object oriented programs that cover topics from the basics to advanced concepts. These programs were completed during my second semester and are intended to assist those doing object oriented programming in C++.
 
+## Important Note ⭐
+
+Support free learning by contributing to this repository, your single program can be beneficial for others.
+
 ## Explore Top Programs 🔥 
 
 All programs are organized in different folders, but important one are linked below, just click specific `view folder` and reach to the specific folder and start exploring the programs.
@@ -32,10 +36,6 @@ All programs are organized in different folders, but important one are linked be
 ## Contributions 😍
 
 Please contribute to this repository, if you have any program related to object oriented programming in c++, so that we can make this repository as best free source for others. 
-
-## Important Note ⭐
-
-Support free learning by contributing to this repository, your single program can be beneficial for others.
 
 
 <h4 align="center" > Wana give a token of thanks or support me!</h4>
