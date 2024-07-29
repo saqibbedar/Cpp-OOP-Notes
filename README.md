@@ -8,13 +8,13 @@ All programs are organized in different folders, but important one are linked be
 
 | S.No | Project name | View folder |
 |:-- | :-- | :-- |
-| 1. | Basic C++ - Quick Revision | [View folder →](https://saqibbedar.github.io/web-projects-2/drag-and-drop/index.html) |
-| 2. | OOP Assignment | [View folder →](https://saqibbedar.github.io/web-projects-2/code-editor/index.html) |
-| 3. | OOP Concept | [View folder →](https://saqibbedar.github.io/web-projects-2/Add-to-cart/index.html) |
-| 4. | Notes from A. Bari's Videos | [View folder →](https://saqibbedar.github.io/web-projects-2/music-player/index.html) |
-| 5. | Output Questions | [View folder →](https://saqibbedar.github.io/web-projects-2/upload-img/index.html) |
-| 6. | Theory Questions | [View folder →](https://saqibbedar.github.io/web-projects-2/DarkMode/index.html) |
-| 6. | Perfect Classes | [View folder →](https://saqibbedar.github.io/web-projects-2/DarkMode/index.html) |
+| 1. | Basic C++ - Quick Revision | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/Basic%20Cpp%20-%20A%20quick%20Revision) |
+| 2. | OOP Assignment | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Assignment) |
+| 3. | OOP Concept | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Concepts) |
+| 4. | Notes from A. Bari's Videos | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Notes%20from%20Abdul%20Bari's%20Videos) |
+| 5. | Output Questions | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Output%20Questions) |
+| 6. | Theory Questions | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Theory%20Questions) |
+| 6. | Perfect Classes | [View folder →](https://github.com/saqibbedar/Cpp-OOP-Notes/tree/main/OOP%20Perfect%20Classes%20%E2%AD%90) |
 
 ## How to Use This Repository
 
