@@ -1,0 +1,6 @@
+File Handling: C++ provides two types of filing i.e. Text filing and Binary filing.
+For file handling, we use fstream library, here are few important modes to remember:
+
+Modes: ios::in, ios::out, ios::binary, ios::app etc
+
+Functions: open, close, read, write etc

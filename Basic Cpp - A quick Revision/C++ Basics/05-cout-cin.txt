@@ -1,0 +1,9 @@
+The cout object and the cin object are instances of the ostream and istream classes. Both are used for output and input operations. cout is connected with standard output device, which is usually screen. The << operator is called the insertion operator. For example, cout << "Hello, world!"; sends the string "Hello, world!" to the standard output device.
+
+The cin object is connected to the standard input device, which is usually the keyboard. When you use cin to get input, you're reading a sequence of characters from the standard input device. The >> operator is called the extraction operator. It's used with cin to extract data from the input stream. For example, int x; cin >> x; waits for the user to enter a number, then stores that number in x.
+
+Now, let's talk about buffers. A buffer is a block of memory used for temporary storage of data. When you're doing input or output, data is often stored in a buffer before it's sent to the device or after it's received from the device. This is done to improve performance: reading or writing large blocks of data all at once is usually faster than reading or writing one character at a time.
+
+When you're writing data to the output device with cout, the data is first put into a buffer. The data stays in the buffer until it's either full or explicitly flushed. When the buffer is flushed, all the data in it is sent to the output device at once.
+
+The endl manipulator not only inserts a newline character into the output stream, it also flushes the output buffer. This means that any data currently in the buffer is sent to the output device immediately. 

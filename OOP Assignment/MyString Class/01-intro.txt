@@ -1,0 +1,18 @@
+// null character is the character whose ASCII code is 0, in program it is usually written like '\0'. It is common to use int 0 or NULL to denote NULL character.
+
+Example:
+    char ch1, ch2, ch3;
+    ch1 = '\0';
+    ch2 = 0;
+    ch3 = NULL;
+
+
+String literals: String literals, also called string constants, are written directly into the program as a sequence of characters enclosed in double quotes: For example,
+
+    "What is your name?"
+    "Bailey"
+
+When the compiler encounters a string literal such as "Bailey", it allocates an array of seven characters, stores the six characters of "Bailey" in the first six entries of the array, and then stores the null character in the last entry.
+
+    B a i l e y \0
+

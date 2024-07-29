@@ -1,0 +1,140 @@
+Questions on Object-Oriented Programming (OOP) concepts in C++ from basic to advanced topics:
+
+Basic Concepts
+1. Classes and Objects
+   - What is a class? How is it different from an object?
+   - How do you define and create an object of a class in C++?
+   - Explain the concept of access specifiers. What are the differences between public, private, and protected members?
+
+2. Constructors and Destructors
+   - What is a constructor? How is it different from a regular member function?
+   - Can you have more than one constructor in a class? Explain constructor overloading with an example.
+   - What is a destructor? When is it called?
+   - Can constructors and destructors be virtual? If yes, why and how does it affect the program? ⭐
+
+3. Encapsulation
+   - What is encapsulation? How does it contribute to data hiding?
+   - What are getters and setters? Provide an example to demonstrate their use.
+
+4. Inheritance
+   - What is inheritance? How does it promote code reusability?
+   - Explain the different types of inheritance in C++ with examples.
+   - How do constructors and destructors behave in an inheritance hierarchy? ⭐
+
+5. Polymorphism
+   - What is polymorphism? Explain the difference between compile-time and run-time polymorphism.
+   - What are virtual functions? How are they different from normal functions?
+   - What is a pure virtual function? Why do we use it? ⭐
+   - What is the vtable? How is it related to virtual functions? ⭐
+
+6. Abstraction
+   - What is abstraction? How do abstract classes provide abstraction in C++?
+   - Can you create an instance of an abstract class? Why or why not? ⭐
+
+### Intermediate Concepts
+7. Friend Functions and Classes
+   - What are friend functions? How do they differ from regular member functions? 
+   - What are friend classes? Provide an example to demonstrate their use.
+
+8. Static Members
+   - What are static variables and static functions? How are they different from regular class members? 
+   - How do you initialize static member variables? 
+
+9. Const Member Functions
+   - What is a const member function? When would you use it? ⭐
+   - What is the mutable keyword? Provide an example of its use. ⭐
+
+10. Namespaces
+    - What are namespaces? Why are they used?
+    - How do you create and use a namespace in C++?
+
+11. Operator Overloading
+    - What is operator overloading? Which operators can be overloaded in C++?
+    - Provide examples of overloading unary and binary operators.
+
+12. Dynamic Memory Management
+    - How do you allocate and deallocate dynamic memory in C++?
+    - What are smart pointers? Explain the differences between std::unique_ptr, std::shared_ptr, and std::weak_ptr.
+
+### Advanced Concepts
+13. Templates
+    - What are templates? How do function templates and class templates differ?
+    - Provide an example of template specialization.
+
+14. Exception Handling
+    - What is exception handling? Explain the use of try, catch, and throw keywords.
+    - How do you create and use custom exceptions in C++?
+
+15. Type Conversion
+    - What are implicit and explicit conversions? Provide examples.
+    - Explain the different casting operators in C++ (static_cast, dynamic_cast, const_cast, reinterpret_cast).
+
+16. STL (Standard Template Library)
+    - What is the STL? Name some common containers provided by the STL.
+    - How do you use iterators in the STL? Provide an example.
+
+17. Advanced Inheritance and Polymorphism
+    - What is virtual inheritance? Why is it used? Provide an example.
+    - Explain the diamond problem in inheritance. How does C++ resolve it?
+
+18. Design Patterns
+    - What are design patterns? Why are they important in software development?
+    - Explain the Singleton pattern with an example.
+    - Describe the Factory Method pattern and provide an example.
+
+19. Multi-threading and Concurrency
+    - What is multi-threading? How do you create and manage threads in C++?
+    - What are mutexes and locks? Explain their use in preventing data races.
+
+20. File Handling
+    - How do you read from and write to files in C++? Provide examples using ifstream, ofstream, and fstream.
+
+21. SFINAE (Substitution Failure Is Not An Error)
+    - What is SFINAE? Provide an example to demonstrate its use.
+    - How does std::enable_if work in template metaprogramming?
+
+22. RAII (Resource Acquisition Is Initialization)
+    - What is RAII? Provide examples to illustrate its importance in resource management.
+
+23. Move Semantics and Rvalue References
+    - What are move semantics? How do they improve performance?
+    - Explain the use of std::move and std::forward with examples.
+
+24. C++11/14/17/20 Features
+    - What are some key features introduced in C++11/14/17/20?
+    - Explain the use of auto keyword and lambda expressions with examples.
+    - What are concepts and coroutines in C++20?
+
+### Practical Application Questions
+25. Copy Constructor
+    - When is the copy constructor called? Provide an example to demonstrate its use.
+
+26. Object Passing
+    - Why is an object often passed by const reference? What would happen if it is passed by value?
+
+27. Object Slicing
+    - What is object slicing? Provide an example to demonstrate this concept.
+
+28. Composition and Aggregation
+    - What is the difference between composition and aggregation? Provide examples of each.
+
+29. Association and Composite Objects
+    - What is association in OOP? How does it differ from composition and aggregation?
+    - Define a composite object. Provide an example to illustrate the concept.
+
+30. Dynamic Polymorphism
+    - What is dynamic polymorphism? Provide examples of runtime and compile-time polymorphism.
+
+31. Error Handling and Debugging
+    - What are common errors in OOP? How can they be handled and debugged effectively?
+
+32. Concrete Class
+    - What is a concrete class? How does it differ from an abstract class?
+
+33. Pure Virtual Functions
+    - What is the role of pure virtual functions in C++? Why are they used?
+
+34. Recursion in Inheritance
+    - When does recursion occur in inheritance hierarchies? How can it be resolved?
+
+These questions cover a wide range of topics in OOP with a focus on both conceptual understanding and practical application, which should help you prepare thoroughly for your exams.

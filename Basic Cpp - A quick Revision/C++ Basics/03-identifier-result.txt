@@ -1,0 +1,4 @@
+10
+100
+Enter a number: 200
+You entered number: 200

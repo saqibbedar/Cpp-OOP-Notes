@@ -1,0 +1,1 @@
+Std in cpp: std is abbreviation for standard. In cpp, std is a namespace that contains all the classes, objects, and functions of the standard cpp library. When you see using namespace std; at the top of a C++ program, it means that the program will be using entities (like objects, classes, or functions) that are part of the standard library.

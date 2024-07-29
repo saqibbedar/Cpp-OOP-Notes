@@ -1,0 +1,32 @@
+Question: Can we implement the overloaded operator functions for stream insertion and extraction "<<" and ">>" as member functions of a class. Why or why not?
+
+⭐ view 02_Qs_Code.cpp for better understanding, but read this first:
+
+Answer: No, we cannot implement the overloaded stream insertion (<<) and extraction (>>) operators as member functions of a class. The primary reason is that these operators need to work with the ostream and istream classes as their first operand, which would be impossible if they were member functions of the class they are supposed to work with.
+
+Example: 
+
+// not a member function:
+ostream& operator<<(ostream& os, const MyClass& obj);
+
+This allows the stream (os) to be the first operand, which is necessary because the stream is on the left side of the operator when you use it like this:
+
+cout << obj;
+
+If you try to implement it as a member function, the stream would have to be the second operand:
+
+class MyClass {
+public:
+    ostream& operator<<(ostream& os); // This is incorrect
+};
+
+This would require you to call the operator like this:
+
+obj << cout; // This is not how stream insertion works
+
+
+✅ Stream insertion (<<) and extraction (>>) operators should be implemented as non-member functions.
+
+✅ This is because the stream object (ostream or istream) needs to be the first operand, which is not possible with member functions.
+
+✅ Implementing them as friend functions allows direct access to the private members of the class if needed.
